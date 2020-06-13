@@ -1,0 +1,39 @@
+baseURL = "https://dennislee.xyz/"
+languageCode = "en-us"
+title = "Dennis Lee"
+theme = "hugo-ivy"
+footnotereturnlinkcontents = "↩"
+copyright = """
+This page is licensed under a [Creative Commons Attribution 4.0 International License][].
+
+[Creative Commons Attribution 4.0 International License]: https://creativecommons.org/licenses/by/4.0/
+
+[![](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)
+"""
+
+[permalinks]
+    blog = "/:year/:slug/"
+
+# [[menu.main]]
+# 	name = "Blog"
+# 	url = "/blog"
+[[menu.main]]
+	name = "Email"
+	url = "mailto:%64%65%6E%6E%69%73%40%64%65%6E%6E%69%73%6C%65%65%2E%78%79%7A"
+[[menu.main]]
+	name = "GitHub"
+	url = "https://github.com/dennisleexyz"
+[[menu.main]]
+	name = "GitLab"
+	url = "https://gitlab.com/dennisleexyz"
+# [[menu.main]]
+# 	name = "Résumé/CV"
+# 	url = ""
+[[menu.main]]
+	name = "subscribe via RSS"
+	url = "/index.xml"
+
+# [params]
+#     description = ""
+
+[taxonomies]
