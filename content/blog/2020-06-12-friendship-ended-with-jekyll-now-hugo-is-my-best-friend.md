@@ -9,12 +9,11 @@ generator, but now I'm using [Hugo][].
 [Jekyll]: https://jekyllrb.com/
 [Hugo]: https://gohugo.io/
 
-Why?
-----
+### Why? ###
 Here are some reasons why I switched to Hugo (and why I like it more
 than Jekyll) in no particular order:
 
-### Build Dependencies ###
+#### Build Dependencies ####
 When using Jekyll, you have to pull in all of
 these different packages using [RubyGems][], a package manager for
 [Ruby][]. Dare I say... *bloat*? In contrast, Hugo is just a single
@@ -32,8 +31,8 @@ plugins and themes from different sources.  Oh, and speaking of themes:
 
 [dependency hell]: https://en.wikipedia.org/wiki/Dependency_hell
 
-### Themes ###
-The way Hugo handles theming is far, saner than the way Jekyll does. In
+#### Themes ####
+The way Hugo handles theming is far saner than the way Jekyll does. In
 Jekyll, you use either the default [minima theme][] or install a
 different one (via RubyGems), and then if you want to customize parts of
 the theme, you place modified versions of the relevant files locally in
@@ -49,11 +48,11 @@ Without the pointless separation between source and packaged forms, the
 separation between user-specific and general data is far easier to
 achieve and mantain.
 
-### Speed ###
+#### Speed ####
 The build process with Hugo is just faster. Chad compiled
 language vs. virgin interpreted language.
 
-### Naming/Organization ###
+#### Naming/Organization ####
 The names of all of the important files and
 folders in Jekyll all begin with a leading `_`, like `_config.yml`. I
 don't know how someone ever thought this was a good idea. Maybe
@@ -65,7 +64,7 @@ that doesn't belong in `/_posts/`).
 Anyway, Hugo has none of the above problems (all pages go
 in `/content/`, favicon in `/static/`,...).
 
-### blogdown ###
+#### blogdown ####
 I recently found out about this thing called [blogdown][], which
 generates webpages from [R Markdown][]. It has some support for Jekyll
 and [Hexo][], but mostly targets Hugo. I don't know if I'll actually use
@@ -75,7 +74,7 @@ this, but it's nice to know I have the option.
 [R Markdown]: https://rmarkdown.rstudio.com/index.html
 [Hexo]: https://hexo.io/
 
-### Hugo actually has more features! ###
+#### Hugo actually has more features! ####
 - Hugo has internationalization (i18n) functionality built in. Jekyll
   doesn't. If you're still going to use Jekyll though, try [this][].
 - Hugo actually lets you change the structure of your site beyond just
@@ -86,11 +85,10 @@ this, but it's nice to know I have the option.
 
 [this]: https://www.sylvaindurand.org/making-jekyll-multilingual/
 
-Why not?
---------
+### Why not? ###
 But there are, unfortunately, some things I'm missing in Hugo:
 
-### Structure/Organization ###
+#### Structure/Organization ####
 With Jekyll, you put a file named like `YYYY-MM-DD-slug` into `/_posts/`
 and it sets the date and title automatically. Hugo makes me specify
 title and date manually, even when using the aforementioned format.[^2]
@@ -102,12 +100,11 @@ automation functionality for creating new pages][], though...
 [some nice automation functionality for creating new pages]:
 https://gohugo.io/getting-started/quick-start/#step-4-add-some-content
 
-Jekyll literally actually eternally BTFO forever with FACTS and LOGIC
----------------------------------------------------------------------
+### Jekyll literally actually BTFO forever with FACTS and LOGIC ###
 There are a few reasons I decided to use Jekyll at first, but after
 using Hugo, I no longer think any of them are good reasons:
 
-### Portability ###
+#### Portability ####
 Originally I had this website hosted on [GitLab Pages][] (which supports
 literally any static site generator), but I figured I might want to
 switch to [GitHub Pages][] (which only supports Jekyll) at some point. It
@@ -127,7 +124,7 @@ separate posts.
 [GitHub]: https://github.com/
 [Bitbucket]: https://bitbucket.org/
 
-### Extensibility (Plugins) ###
+#### Extensibility (Plugins) ####
 It's true: Jekyll has plugins and Hugo doesn't. But I haven't actually
 thought of something Hugo can't do that Jekyll accomplishes with
 plugins. As mentioned before, Hugo already has internationalization/i18n
@@ -142,13 +139,12 @@ have). [Percent encoding][] for the link, [code points][] for the text.
 https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_reference_overview
 [jekyll-email-protect]: https://github.com/vwochnik/jekyll-email-protect
 
-### Flexibility ###
+#### Flexibility ####
 Uhh, I put this here when I was writing other parts of the page to
 remind myself of something, but now I don't remember what I was supposed
 to write here. Oh well.
 
-Conclusion
-----------
+### Conclusion ###
 Well, I've already spent a lot more time writing this than I expected.
 Hopefully I didn't forget anything. Later I'll post more about website
 building. I'll tell you about non-garbage static site themes that are
@@ -156,8 +152,5 @@ building. I'll tell you about non-garbage static site themes that are
 functionality or anything while still looking A E S T H E T I C and
 stuff.
 
-[^1]: I'll probably write more in the future about why this is
-important.
-[^2]: I'm still going to use the format regardless because it makes
-organization easier in the filesystem (making my site more portable is a
-bonus).
+[^1]: I'll probably write more in the future about why this is important.
+[^2]: I'm still going to use the format regardless because it makes organization easier in the filesystem (making my site more portable is a bonus).
