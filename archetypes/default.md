@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replaceRE "[[:^alpha:]]" " " .Name | humanize }}"
 date: {{ .Date }}
-draft: true
+slug: "{{ replaceRE "[[:^alpha:]]" "-" .Name | replaceRE "-{2,}" "-" | replaceRE "^-" "" | lower }}"
 ---
 

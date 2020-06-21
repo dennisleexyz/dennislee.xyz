@@ -9,8 +9,9 @@ multiple lines.
 Line Breaks
 -----
 - Lines should not exceed 72 characters in width.
-- A URL should never be broken across multiple lines. This rule takes
-  precedence over the previous one, if the two conflict.
+- A URL or preformatted (code) chunk should never be broken across
+  multiple lines. This rule takes precedence over the previous one, if
+  the two conflict.
 - Footnotes are another exception to the line break rule, at least for
   now. Netlify's version of Hugo seems to cause problems with this.
 
@@ -49,5 +50,7 @@ Emphasis
 Links
 -----
 - Use reference-style [links][].
+- Separate links should be separated by one or more non-whitespace
+  characters.
 
 [links]: https://daringfireball.net/projects/markdown/syntax#link
