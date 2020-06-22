@@ -52,5 +52,7 @@ Links
 - Use reference-style [links][].
 - Separate links should be separated by one or more non-whitespace
   characters.
+- A block of link references should be separated by a blank line on both
+  sides.
 
 [links]: https://daringfireball.net/projects/markdown/syntax#link
