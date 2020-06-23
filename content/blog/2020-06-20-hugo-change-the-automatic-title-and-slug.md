@@ -16,8 +16,8 @@ in this post), I even have to specify the *slug* manually, because
 otherwise it auto-generates the slug *with the punctuation intact*!
 
 But what I didn't know was that you can actually customize this! There
-is this optional folder 📁 in either your theme's or your site's root
-folder 📁 called `/archetypes/` (the latter takes precedence over the
+is this optional folder in either your theme's or your site's root
+folder called `/archetypes/` (the latter takes precedence over the
 former) where the default [front matter][] is stored. Here's what my
 `/archetypes/default.md` looks like now:
 
@@ -34,7 +34,7 @@ slug: "{{ replaceRE "[[:^alpha:]]" "-" .Name | replaceRE "-{2,}" "-" | replaceRE
 
 The `title: `[template][] (using [regexp][]) replaces any non-alphabetic
 character in the filename with a space, then [pipes][] the result into
-the [humanize][] function to use sentence case. Hugo seems to trim ✂
+the [humanize][] function to use sentence case. Hugo seems to trim
 extra leading whitespace automatically, so that is not accounted for
 here.
 

@@ -5,12 +5,12 @@ slug: a-real-world-example-of-editing-arch-linux-aur-pkgbuilds
 ---
 I recently installed [Interlink][] from the [AUR][]. I'll be writing
 about the choice of email 📧 client in a future post, but this post is
-about how I dealt with the broken [AUR package 📦 for Interlink][] and how
-you can deal with broken AUR packages 📦 in general.
+about how I dealt with the broken [AUR package for Interlink][] and how
+you can deal with broken AUR packages in general.
 
 [Interlink]: https://binaryoutcast.com/projects/interlink/
 [AUR]: https://aur.archlinux.org/
-[AUR package 📦 for Interlink]:
+[AUR package for Interlink]:
 https://aur.archlinux.org/packages/interlink-bin/
 
 ### The Problem ###
@@ -22,13 +22,13 @@ curl: (22) The requested URL returned error: 404 Not Found
 ==> ERROR: Failure while downloading http://repository.binaryoutcast.com/projects/interlink/releases/latest/interlink-52.9.7433.linux-x86_64-gtk3.tar.xz
 ```
 Ok, so it tried to download a file that doesn't exist. It gives us the
-path to the file, so I went to [the file's parent folder 📂][] to see if I
+path to the file, so I went to [the file's parent folder][] to see if I
 could figure out what the problem was. It appears that the developer has
 released version *52.9.7463*, and **removed** *52.9.7433*, the one we
-were looking for! I flagged the package 📦 as "Out of Date" on the AUR
+were looking for! I flagged the package as "Out of Date" on the AUR
 page.
 
-[the file's parent folder 📂]:
+[the file's parent folder]:
 http://repository.binaryoutcast.com/projects/interlink/releases/latest/
 
 ### The Solution ###
@@ -68,6 +68,6 @@ sha256sums_x86_64=('SKIP')
 [integrity checks]:
 https://wiki.archlinux.org/index.php/PKGBUILD#Integrity
 
-And with that, the package 📦 installs!
+And with that, the package installs!
 
 [^1]: [Creating Packages For The Arch User Repository (AUR) - DistroTube - Invidious](https://invidio.us/watch?v=iUz28vbWgVw&t=581)
