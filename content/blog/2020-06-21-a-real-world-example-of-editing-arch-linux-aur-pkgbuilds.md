@@ -4,7 +4,7 @@ date: 2020-06-21T22:19:55-07:00
 slug: a-real-world-example-of-editing-arch-linux-aur-pkgbuilds
 ---
 I recently installed [Interlink][] from the [AUR][]. I'll be writing
-about the choice of email 📧 client in a future post, but this post is
+about the choice of email client in a future post, but this post is
 about how I dealt with the broken [AUR package for Interlink][] and how
 you can deal with broken AUR packages in general.
 
