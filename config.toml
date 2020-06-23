@@ -21,22 +21,22 @@ This page is licensed under a [Creative Commons Attribution 4.0 International Li
 # 	url= "/blog"
 [[menu.main]]
 	name = "Email"
-	pre = "📧"
-	url = "mailto:%64%65%6E%6E%69%73%40%64%65%6E%6E%69%73%6C%65%65%2E%78%79%7A"
+	pre = '<span class="fas fa-envelope"></span> '
+	url = "mailto:%44%65%6E%6E%69%73%40%44%65%6E%6E%69%73%4C%65%65%2E%78%79%7A"
 [[menu.main]]
 	name = "GitHub"
-	pre = '<img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">'
-	url = "https://github.com/dennisleexyz"
+	pre = '<span class="fab fa-github"></span> '
+	url = "https://github.com/DennisLeexyz"
 [[menu.main]]
 	name = "GitLab"
-	pre = '<img src="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" width="16" height="16">'
-	url = "https://gitlab.com/dennisleexyz"
+	pre = '<span class="fab fa-gitlab"></span> '
+	url = "https://gitlab.com/DennisLeexyz"
 # [[menu.main]]
 # 	name= "Résumé/CV"
 # 	url= ""
 [[menu.main]]
-	name = "subscribe via RSS"
-	pre = '<img src="https://upload.wikimedia.org/wikipedia/en/4/43/Feed-icon.svg" width="16" height="16">'
+	name = "Subscribe"
+	pre = '<span class="fa fa-rss"></span> '
 	url = "/index.xml"
 
 # [params]
