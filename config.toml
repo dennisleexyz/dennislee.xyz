@@ -6,11 +6,11 @@ footnotereturnlinkcontents = "↩"
 enableGitInfo = true
 enableRobotsTXT = true
 copyright = """
-This page is licensed under a [Creative Commons Attribution 4.0 International License][CC BY 4.0].
+This page is licensed under a [Creative Commons Attribution 4.0 International License][CC-BY-4.0].
 
-[![](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)][CC BY 4.0]
+   [![CC-BY-4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)][CC-BY-4.0]
 
-[CC BY 4.0]: https://creativecommons.org/licenses/by/4.0/
+   [CC-BY-4.0]: https://creativecommons.org/licenses/by/4.0/
 """
 
 [permalinks]
