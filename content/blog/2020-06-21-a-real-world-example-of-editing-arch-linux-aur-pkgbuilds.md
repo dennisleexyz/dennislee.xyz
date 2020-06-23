@@ -1,7 +1,5 @@
 ---
 title: A real world example of editing Arch Linux AUR PKGBUILDs
-date: 2020-06-21T22:19:55-07:00
-slug: a-real-world-example-of-editing-arch-linux-aur-pkgbuilds
 ---
 I recently installed [Interlink][] from the [AUR][]. I'll be writing
 about the choice of email client in a future post, but this post is

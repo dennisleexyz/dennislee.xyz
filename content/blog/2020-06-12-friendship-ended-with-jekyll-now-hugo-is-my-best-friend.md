@@ -1,7 +1,5 @@
 ---
 title: "Friendship ended with Jekyll. Now Hugo is my best friend!"
-date: 2020-06-12T11:59:23-07:00
-slug: friendship-ended-with-jekyll-now-hugo-is-my-best-friend
 ---
 The first version of this site used [Jekyll][] as a static site
 generator, but now I'm using [Hugo][].

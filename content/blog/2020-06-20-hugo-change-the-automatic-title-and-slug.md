@@ -1,8 +1,6 @@
 ---
 title: "Hugo: change the automatic title and slug!"
 subtitle: "Archetypes in Hugo"
-date: 2020-06-20T18:09:55-07:00
-slug: "hugo-change-the-automatic-title-and-slug"
 ---
 In [a previous post] I complained about the format to automatically
 generated titles and slugs in Hugo.
