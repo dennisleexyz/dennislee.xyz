@@ -21,13 +21,12 @@ former) where the default [front matter][] is stored. Here's what my
 
 [front matter]: https://gohugo.io/content-management/front-matter/
 
-```
+```go-html-template
 ---
 title: "{{ replaceRE "[[:^alpha:]]" " " .Name | humanize }}"
 date: {{ .Date }}
 slug: "{{ replaceRE "[[:^alpha:]]" "-" .Name | replaceRE "-{2,}" "-" | replaceRE "^-" "" | lower }}"
 ---
-
 ```
 
 The `title: `[template][] (using [regexp][]) replaces any non-alphabetic

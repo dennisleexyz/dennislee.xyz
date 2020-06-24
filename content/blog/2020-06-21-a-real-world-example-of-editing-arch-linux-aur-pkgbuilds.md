@@ -56,7 +56,7 @@ because there's nothing to check, right?
 ```
 Oh. So, is there a way to tell it to skip [integrity checks][] on the
 downloaded file? Turns out, there is.[^1]
-```
+```sh
 sha256sums=('SKIP')
 sha256sums_x86_64=('SKIP')
 ```
