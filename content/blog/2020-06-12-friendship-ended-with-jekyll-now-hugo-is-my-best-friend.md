@@ -87,17 +87,19 @@ this, but it's nice to know I have the option.
 But there are, unfortunately, some things I'm missing in Hugo:
 
 #### Structure/Organization ####
-[~~With Jekyll, you put a file named like `YYYY-MM-DD-slug` into
-`/_posts/` and it sets the date and title automatically. Hugo makes me
-specify title and date manually, even when using the aforementioned
-format. And if I want punctuation in my title (like in this post), I
-even have to specify the *slug* manually, because otherwise it
-auto-generates the slug *with the punctuation intact*! At
-least~~](/2020/hugo-change-the-automatic-title-and-slug/) Hugo has [some
-nice automation functionality for creating new pages][], though...
+With Jekyll, you put a file named like `YYYY-MM-DD-slug` into `/_posts/`
+and it sets the date and title automatically. Hugo makes me specify
+title and date manually, even when using the aforementioned format.[^2]
+And if I want punctuation in my title (like in this post), I even have
+to specify the *slug* manually, because otherwise it auto-generates the
+slug *with the punctuation intact*! At least Hugo has
+[some nice automation functionality for creating new pages][], though...
+**Update 2020-05-24:** Actually, this can be fixed completely, see
+[my newer post][] for details.
 
 [some nice automation functionality for creating new pages]:
 https://gohugo.io/getting-started/quick-start/#step-4-add-some-content
+[my newer post]: /2020/hugo-jekyll-style-date-and-slug-from-filename/
 
 ### Jekyll literally actually BTFO forever with FACTS and LOGIC ###
 There are a few reasons I decided to use Jekyll at first, but after

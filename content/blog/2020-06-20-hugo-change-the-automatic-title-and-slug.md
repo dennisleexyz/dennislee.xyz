@@ -2,6 +2,11 @@
 title: "Hugo: change the automatic title and slug!"
 subtitle: "Archetypes in Hugo"
 ---
+**Update 2020-05-24:** This post has been superseded by a newer post.
+The newer post can be found [here][].
+
+[here]: /2020/hugo-jekyll-style-date-and-slug-from-filename/
+---
 In [a previous post] I complained about the format to automatically
 generated titles and slugs in Hugo.
 
