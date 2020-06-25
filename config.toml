@@ -48,7 +48,7 @@ This page is licensed under a [Creative Commons Attribution 4.0 International Li
 [[menu.main]]
 	name = "Subscribe"
 	pre = '<span class="fa fa-rss"></span> '
-	url = "/index.xml"
+	url = "/blog/index.xml"
 # [[menu.main]]
 # 	name = "Twitter"
 # 	pre = '<span class="fab fa-twitter"></span> '
