@@ -63,3 +63,6 @@ This page is licensed under a [Creative Commons Attribution 4.0 International Li
 	[markup.goldmark]
 		[markup.goldmark.renderer]
 			unsafe = true
+	[markup.tableOfContents]
+		startLevel = 3
+		endLevel = 6
