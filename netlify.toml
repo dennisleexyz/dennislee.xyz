@@ -5,8 +5,8 @@ command = "hugo --gc"
 HUGO_VERSION = "0.72.0"
 
 [[redirects]]
-from = "/*"
-to = "https://github.com/dennisleexyz/:splat"
+from = "/:repo"
+to = "https://github.com/dennisleexyz/:repo"
 status = 301
 
 [[redirects]]
