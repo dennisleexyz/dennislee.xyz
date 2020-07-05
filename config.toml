@@ -25,7 +25,7 @@ This page is licensed under a [Creative Commons Attribution 4.0 International Li
 [[menu.main]]
 	name = "Email"
 	pre = '<span class="fas fa-envelope"></span> '
-	url = "mailto:%44%65%6E%6E%69%73%40%44%65%6E%6E%69%73%4C%65%65%2E%78%79%7A"
+	url = "mailto:%64%65%6E%6E%69%73%40%44%65%6E%6E%69%73%4C%65%65%2E%78%79%7A"
 [[menu.main]]
 	name = "GitHub"
 	pre = '<span class="fab fa-github"></span> '
