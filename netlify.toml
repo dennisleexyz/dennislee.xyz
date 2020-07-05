@@ -2,13 +2,13 @@
 command = "hugo --gc"
 
 [[redirects]]
-from = "/:repo/*"
-to = "https://raw.githubusercontent.com/dennisleexyz/:repo/master/:splat"
+from = "/*"
+to = "https://github.com/dennisleexyz/:splat"
 status = 301
 
 [[redirects]]
-from = "/*"
-to = "https://github.com/dennisleexyz/:splat"
+from = "/:repo/*"
+to = "https://raw.githubusercontent.com/dennisleexyz/:repo/master/:splat"
 status = 301
 
 [[redirects]]
