@@ -1,6 +1,9 @@
 [build]
 command = "hugo --gc"
 
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.72.0"
+
 [[redirects]]
 from = "/*"
 to = "https://github.com/dennisleexyz/:splat"
