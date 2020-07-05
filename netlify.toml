@@ -1,14 +1,20 @@
 [build]
 command = "hugo --gc"
 
+[context.production.environment]
+HUGO_VERSION = "0.72.0"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.72.0"
+
 [[redirects]]
-from = "/:repo/*"
-to = "https://raw.githubusercontent.com/dennisleexyz/:repo/master/:splat"
+from = "/:repo"
+to = "https://github.com/dennisleexyz/:repo"
 status = 301
 
 [[redirects]]
-from = "/*"
-to = "https://github.com/dennisleexyz/:splat"
+from = "/:repo/*"
+to = "https://raw.githubusercontent.com/dennisleexyz/:repo/master/:splat"
 status = 301
 
 [[redirects]]
