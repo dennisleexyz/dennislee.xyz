@@ -2,6 +2,16 @@
 command = "hugo --gc"
 
 [[redirects]]
+from = "/:repo/*"
+to = "https://raw.githubusercontent.com/dennisleexyz/:repo/master/:splat"
+status = 301
+
+[[redirects]]
+from = "/*"
+to = "https://github.com/dennisleexyz/:splat"
+status = 301
+
+[[redirects]]
 from = "https://dennislee.netlify.com/*"
 to = "https://dennislee.xyz/:splat"
 status = 301
@@ -12,8 +22,3 @@ from = "http://dennislee.netlify.com/*"
 to = "https://dennislee.xyz/:splat"
 status = 301
 force = true
-
-[[redirects]]
-from = "/*"
-to = "https://raw.githubusercontent.com/dennisleexyz/:splat"
-status = 301
