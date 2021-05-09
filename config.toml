@@ -34,17 +34,17 @@ This page is licensed under a [Creative Commons Attribution 4.0 International Li
 	name = "GitLab"
 	pre = '<span class="fab fa-gitlab"></span> '
 	url = "https://gitlab.com/DennisLeexyz"
-[[menu.main]]
-	name= "Projects"
-	pre = '<span class="fa fa-project-diagram"></span> '
-	url= "/projects"
+; [[menu.main]]
+; 	name= "Projects"
+; 	pre = '<span class="fa fa-project-diagram"></span> '
+; 	url= "/projects"
 # [[menu.main]]
 # 	name= "Résumé/CV"
 # 	url= ""
-[[menu.main]]
-	name= "Setup"
-	pre = '<span class="fa fa-desktop"></span> '
-	url= "https://github.com/dennisleexyz/dotfiles/wiki"
+; [[menu.main]]
+; 	name= "Setup"
+; 	pre = '<span class="fa fa-desktop"></span> '
+; 	url= "https://github.com/dennisleexyz/dotfiles/wiki"
 [[menu.main]]
 	name = "Subscribe"
 	pre = '<span class="fa fa-rss"></span> '

@@ -1,13 +1,8 @@
-See [Projects][] for contributions I have made to various software.
+Hi! I'm mostly working on my new keyboard business nowadays. Check it out at
+[modulo.industries](https://modulo.industries).
 
-See [Setup][] for information about the software and hardware I use.
-
-Reach out via email with any inquiries, questions, or comments. For
-individual [projects][], the project's repository/issue tracker can also
-be used.
-
-[Projects]: /projects
-[Setup]: https://github.com/dennisleexyz/dotfiles/wiki
+For the blog, feel free to reach out via email with any inquiries, questions,
+or comments.
 
 Blog Index
 ----------
