@@ -34,6 +34,10 @@ This page is licensed under a [Creative Commons Attribution 4.0 International Li
 	name = "GitLab"
 	pre = '<span class="fab fa-gitlab"></span> '
 	url = "https://gitlab.com/DennisLeexyz"
+[[menu.main]]
+	name= "Recipes"
+	pre = '<span class="fas fa-lemon"></span> '
+	url= "/recipe"
 # [[menu.main]]
 # 	name= "Projects"
 # 	pre = '<span class="fa fa-project-diagram"></span> '
