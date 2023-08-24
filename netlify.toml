@@ -22,9 +22,3 @@ from = "https://dennislee.netlify.com/*"
 to = "https://dennislee.xyz/:splat"
 status = 301
 force = true
-
-[[redirects]]
-from = "http://dennislee.netlify.com/*"
-to = "https://dennislee.xyz/:splat"
-status = 301
-force = true
