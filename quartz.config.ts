@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     baseUrl: "dennislee.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
-    generateSocialImages: false,
+    generateSocialImages: true,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: false,
