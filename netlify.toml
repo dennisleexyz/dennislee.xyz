@@ -1,3 +1,6 @@
+[build]
+command = "npx quartz build"
+
 [[redirects]]
 from = "/:repo"
 to = "https://github.com/dennisleexyz/:repo"
