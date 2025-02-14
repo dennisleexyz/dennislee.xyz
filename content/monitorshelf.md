@@ -1,5 +1,6 @@
 ---
 title: Monitor Shelf
+date: 2022-01-05T11:41:36-08:00
 author: Dennis Lee
 ---
 I noticed that the desktop monitors at my workstation were too low, causing me to hunch over. I used [ergotron.com's workspace planner](https://www.ergotron.com/en-us/tools/workspace-planner) to determine the optimal shelf height based on the heights of myself, the chair, and the desk.
