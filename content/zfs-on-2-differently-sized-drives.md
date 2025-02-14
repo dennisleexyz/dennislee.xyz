@@ -1,6 +1,6 @@
 ---
 title: ZFS on 2 differently sized drives
-date: 2020-07-08
+date: 2020-07-08T22:43:32-07:00
 aliases: 2020/zfs-on-2-differently-sized-drives
 subtitle: for dummies
 ---

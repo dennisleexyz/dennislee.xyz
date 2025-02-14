@@ -1,6 +1,6 @@
 ---
 title: Basic fault tolerance in ZFS
-date: 2020-07-10
+date: 2020-07-10T20:34:13-07:00
 aliases: 2020/basic-fault-tolerance-in-zfs
 ---
 ### Snapshots ###

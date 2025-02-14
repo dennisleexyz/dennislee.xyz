@@ -1,6 +1,3 @@
----
-date: 2021-05-08
----
 Hi! I'm mostly working on my new keyboard business nowadays. Check it out at
 [modulo.industries](https://modulo.industries).
 

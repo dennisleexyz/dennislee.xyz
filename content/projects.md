@@ -1,6 +1,5 @@
 ---
-title: "Projects"
-date: 2020-06-23
+title: Projects
 ---
 ### [canvas-tui][]'s installer ###
 - Improved cross-platform compatibility by conforming to the POSIX

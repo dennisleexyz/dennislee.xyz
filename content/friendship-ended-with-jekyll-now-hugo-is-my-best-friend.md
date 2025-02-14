@@ -1,6 +1,6 @@
 ---
 title: "Friendship ended with Jekyll. Now Hugo is my best friend!"
-date: 2020-06-12
+date: 2020-06-13T15:15:33-07:00
 aliases: 2020/friendship-ended-with-jekyll-now-hugo-is-my-best-friend
 ---
 The first version of this site used [Jekyll][] as a static site

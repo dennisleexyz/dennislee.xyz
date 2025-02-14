@@ -1,6 +1,6 @@
 ---
 title: Thunderbird profile anatomy
-date: 2020-07-04
+date: 2020-07-04T19:57:52-07:00
 aliases: 2020/thunderbird-profile-anatomy
 subtitle: "What do I back up when backing up my Thunderbird profile?"
 ---

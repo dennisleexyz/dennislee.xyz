@@ -1,6 +1,6 @@
 ---
 title: "Hugo: change the automatic title and slug!"
-date: 2020-06-20
+date: 2020-06-20T18:52:07-07:00
 aliases: 2020/hugo-change-the-automatic-title-and-slug
 subtitle: "Archetypes in Hugo"
 ---

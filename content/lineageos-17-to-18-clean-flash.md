@@ -1,6 +1,6 @@
 ---
 title: "LineageOS 17 to 18 clean flash"
-date: 2021-08-04
+date: 2021-08-05T19:31:39-07:00
 aliases: 2021/lineageos-17-to-18-clean-flash
 ---
 I recently updated my OnePlus One from LineageOS with microG version 17

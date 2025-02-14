@@ -1,6 +1,6 @@
 ---
 title: "Hugo: Jekyll-style date and slug from filename!"
-date: 2020-06-23
+date: 2020-06-24T17:31:49-07:00
 aliases: 2020/hugo-jekyll-style-date-and-slug-from-filename
 subtitle: "BTFOing all of my problems with Hugo!"
 ---
