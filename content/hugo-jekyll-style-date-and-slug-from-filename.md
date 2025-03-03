@@ -1,8 +1,9 @@
 ---
-title: "Hugo: Jekyll-style date and slug from filename!"
+title: "Hugo: Jekyll-style date and slug from filename"
 date: 2020-06-24T17:31:49-07:00
-aliases: 2020/hugo-jekyll-style-date-and-slug-from-filename
-subtitle: "BTFOing all of my problems with Hugo!"
+aliases:
+  - 2020/hugo-jekyll-style-date-and-slug-from-filename
+subtitle: BTFOing all of my problems with Hugo!
 ---
 OK, so this is now the 3rd post in this saga about automatic Hugo front
 matter from filenames. This supersedes my [1st][] and [2nd][] posts on

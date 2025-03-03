@@ -1,8 +1,10 @@
 ---
-title: Guide to suckless software
+title: Suckless software howto
 date: 2020-06-27T22:27:32-07:00
-aliases: 2020/guide-to-suckless-software
-subtitle: "What's the deal with all these config files?"
+aliases:
+  - 2020/guide-to-suckless-software
+  - guide-to-suckless-software
+subtitle: What's the deal with all these config files?
 ---
 How do you download, patch, configure, and install suckless software?
 

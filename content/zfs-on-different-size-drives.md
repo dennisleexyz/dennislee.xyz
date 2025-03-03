@@ -1,7 +1,9 @@
 ---
-title: ZFS on 2 differently sized drives
+title: ZFS on different size drives
 date: 2020-07-08T22:43:32-07:00
-aliases: 2020/zfs-on-2-differently-sized-drives
+aliases:
+  - 2020/zfs-on-2-differently-sized-drives
+  - zfs-on-2-differently-sized-drives
 subtitle: for dummies
 ---
 This is how I set up a mirrored [ZFS][] file system on a system with one 500

@@ -1,7 +1,10 @@
 ---
-title: "Friendship ended with Jekyll. Now Hugo is my best friend!"
+title: Jekyll to Hugo
 date: 2020-06-13T15:15:33-07:00
-aliases: 2020/friendship-ended-with-jekyll-now-hugo-is-my-best-friend
+aliases:
+  - 2020/friendship-ended-with-jekyll-now-hugo-is-my-best-friend
+  - friendship-ended-with-jekyll-now-hugo-is-my-best-friend
+subtitle: Friendship ended with Jekyll. Now Hugo is my best friend!
 ---
 The first version of this site used [Jekyll][] as a static site
 generator, but now I'm using [Hugo][].

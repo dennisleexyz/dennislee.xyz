@@ -1,8 +1,10 @@
 ---
-title: "Hugo: change the automatic title and slug!"
+title: Change Hugo automatic title/slug
 date: 2020-06-20T18:52:07-07:00
-aliases: 2020/hugo-change-the-automatic-title-and-slug
-subtitle: "Archetypes in Hugo"
+aliases:
+  - 2020/hugo-change-the-automatic-title-and-slug
+  - hugo-change-the-automatic-title-and-slug
+subtitle: Archetypes in Hugo
 ---
 **Update 2020-05-24:** This post has been superseded by a newer post.
 The newer post can be found [here][].
