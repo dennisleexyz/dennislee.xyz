@@ -100,11 +100,10 @@ to specify the *slug* manually, because otherwise it auto-generates the
 slug *with the punctuation intact*! At least Hugo has
 [some nice automation functionality for creating new pages][], though...
 **Update 2020-05-24:** Actually, this can be fixed completely, see
-[my newer post][] for details.
+[[hugo-date-and-slug-from-filename-a-la-jekyll|my newer post]] for details.
 
 [some nice automation functionality for creating new pages]:
 https://gohugo.io/getting-started/quick-start/#step-4-add-some-content
-[my newer post]: /2020/hugo-jekyll-style-date-and-slug-from-filename/
 
 ### Jekyll literally actually BTFO forever with FACTS and LOGIC ###
 There are a few reasons I decided to use Jekyll at first, but after

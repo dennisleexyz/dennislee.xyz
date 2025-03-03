@@ -7,15 +7,11 @@ aliases:
 subtitle: Archetypes in Hugo
 ---
 **Update 2020-05-24:** This post has been superseded by a newer post.
-The newer post can be found [here][].
+The newer post can be found [[hugo-date-and-slug-from-filename-a-la-jekyll|here]].
 
-[here]: /2020/hugo-jekyll-style-date-and-slug-from-filename/
 ---
-In [a previous post] I complained about the format to automatically
+In [[jekyll-vs-hugo|a previous post]] I complained about the format to automatically
 generated titles and slugs in Hugo.
-
-[a previous post]:
-/2020/friendship-ended-with-jekyll-now-hugo-is-my-best-friend/
 
 > Hugo makes me specify title and date manually, even when using the
 aforementioned format. And if I want punctuation in my title (like

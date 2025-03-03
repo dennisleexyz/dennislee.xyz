@@ -7,11 +7,8 @@ aliases:
 subtitle: BTFOing all of my problems with Hugo!
 ---
 OK, so this is now the 3rd post in this saga about automatic Hugo front
-matter from filenames. This supersedes my [1st][] and [2nd][] posts on
+matter from filenames. This supersedes my [[jekyll-vs-hugo|1st]] and [[change-hugo-automatic-title-and-slug|2nd]] posts on
 the subject.
-
-[1st]: /2020/friendship-ended-with-jekyll-now-hugo-is-my-best-friend/
-[2nd]: /2020/hugo-change-the-automatic-title-and-slug/
 
 I now have exactly the behavior of Jekyll, where you name files in the
 format `YYYY-MM-DD-title-slug.md` and the post date is automatically
