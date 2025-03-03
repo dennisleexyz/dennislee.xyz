@@ -5,7 +5,7 @@ aliases:
   - 2020/basic-fault-tolerance-in-zfs
   - basic-fault-tolerance-in-zfs
 ---
-### Snapshots ###
+## Snapshots
 The root directory of a ZFS filesystem contains an invisible folder
 `.zfs/`. This differs from a regular "hidden" folder in that it doesn't
 show up with `ls -A` and other such operations.[^1]
@@ -34,7 +34,7 @@ automatically, so it's not necessary to configure anything. It does
 and also `hourly`, `daily`, `weekly`, and `monthly` ones. It seems like
 `zfsnap` does not come with cron jobs.
 
-### Degraded arrays ###
+## Degraded arrays
 In a mirrored layout, ZFS will carry on if a disk fails. Here's what I
 did in my testing of this:
 ```sh

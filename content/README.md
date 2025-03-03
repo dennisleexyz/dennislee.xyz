@@ -23,10 +23,8 @@ Headers
   page title, when applicable. In our case, they are provided
   automatically by Hugo via front matter.
 - Therefore, in practice, the first two levels of heading will rarely be
-  used in actual Markdown source. But if they are, use setext-style
-  headers.
+  used in actual Markdown source.
 - Never skip header levels.
-- "Close" atx-style headers with matching hashes.
 
 [Headers]: https://daringfireball.net/projects/markdown/syntax#header
 [front matter]: https://gohugo.io/content-management/front-matter/

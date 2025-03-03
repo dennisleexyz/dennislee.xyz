@@ -16,7 +16,7 @@ you can deal with broken AUR packages in general.
 [AUR package for Interlink]:
 https://aur.archlinux.org/packages/interlink-bin/
 
-### The Problem ###
+## The Problem
 
 First I tried just a simple `yay -S interlink-bin`, but that gave me
 this:
@@ -34,12 +34,12 @@ page.
 [the file's parent folder]:
 http://repository.binaryoutcast.com/projects/interlink/releases/latest/
 
-### The Solution ###
+## The Solution
 
 I use *yay* as an [AUR helper][]. It has an option called `--editmenu`,
 which gives you the option to edit the [PKGBUILD][] before installing.
 Let's try it:
-```
+```sh
 yay -S interlink-bin --editmenu
 ```
 ---
