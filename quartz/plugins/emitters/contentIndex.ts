@@ -31,8 +31,8 @@ interface Options {
 const defaultOptions: Options = {
   enableSiteMap: true,
   enableRSS: true,
-  rssLimit: null,
-  rssFullHtml: true,
+  rssLimit: 10,
+  rssFullHtml: false,
   includeEmptyFiles: true,
 }
 
