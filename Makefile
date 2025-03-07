@@ -7,4 +7,4 @@ pull:
 merge:
 	git merge v4 --Xours
 diff:
-	git diff v4 :^.github/FUNDING.yml :^content :^netlify.toml :^quartz/static/icon.png
+	git diff v4 --diff-filter=M :^.github/FUNDING.yml :^quartz/static/icon.png
