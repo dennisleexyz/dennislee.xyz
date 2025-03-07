@@ -1,8 +1,10 @@
 ---
-title: "One weird trick to debloat apt-based distros"
+title: One weird trick to debloat apt-based distros
 date: 2020-07-07T22:58:22-07:00
-aliases: 2020/debian-eliminate-dependency-bloat
-subtitle: "recommended dependencies bad"
+aliases:
+  - 2020/debian-eliminate-dependency-bloat
+  - debian-eliminate-dependency-bloat
+subtitle: Don't auto-install apt recommended dependencies
 ---
 In *apt*(1), the package manager for Debian and its derivatives,
 packages may have "optional" and "recommended" dependencies. By default,

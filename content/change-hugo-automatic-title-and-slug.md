@@ -7,7 +7,7 @@ aliases:
 subtitle: Archetypes in Hugo
 ---
 **Update 2020-05-24:** This post has been superseded by a newer post.
-The newer post can be found [[hugo-date-and-slug-from-filename-a-la-jekyll|here]].
+The newer post can be found [[hugo-date-and-slug-from-filename|here]].
 
 ---
 In [[jekyll-vs-hugo|a previous post]] I complained about the format to automatically

@@ -4,6 +4,7 @@ date: 2020-06-24T17:31:49-07:00
 aliases:
   - 2020/hugo-jekyll-style-date-and-slug-from-filename
   - hugo-jekyll-style-date-and-slug-from-filename
+  - hugo-date-and-slug-from-filename-a-la-jekyll
 subtitle: BTFOing all of my problems with Hugo!
 ---
 OK, so this is now the 3rd post in this saga about automatic Hugo front
