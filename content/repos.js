@@ -17,7 +17,8 @@ html`
             (repo) => `<tr>
       <td><a href=${repo.html_url}>${repo.name}</a></td>
       <td>${
-        repo.description + (repo.homepage ? ` <a href=${repo.homepage}>${repo.homepage}</a>` : "")
+        repo.description ??
+        "" + (repo.homepage ? ` <a href=${repo.homepage}>${repo.homepage}</a>` : "")
       }</td>
       <td>${repo.language}</td>
     </tr>`,
