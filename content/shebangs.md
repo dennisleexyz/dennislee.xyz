@@ -1,6 +1,6 @@
 ---
 date: 2025-03-21T00:48:42.046-07:00
-title: /usr/bin/env shebangs
+title: Shebangs
 ---
 - The only FHS paths for executables that NixOS populates by default are `/bin/sh` and `/usr/bin/env`.
 - `#!/usr/bin/env` is one of the shebangs [Python][] builds in support for on Windows.
@@ -17,7 +17,15 @@ However, multiple arguments (such as in `#!/usr/bin/env awk -f`) may be problema
 [BusyBox]: https://busybox.net/downloads/BusyBox.html
 [Heirloom]: https://heirloom.sourceforge.net/man/env.1.html
 
-I've written things like `#!/bin/awk -f` in the past, but due to my use of NixOS I thought to move to `#!/usr/bin/env -S` despite its incompatibility with some other platforms. I imagine a certain hat-and-sunglasses-wearing blue whale telling me off for this, should he ever read this post. However, I did end up finding some other more portable solutions suggested, which I may try instead.
+I've written things like `#!/bin/awk -f` in the past, but due to my use of NixOS I thought to move to `#!/usr/bin/env -S` despite its incompatibility with some other platforms. I imagine a certain hat-and-sunglasses-wearing blue whale telling me off for this, should he ever read this post. However, I did end up finding some other more portable solutions suggested. This is the one I ended up going with, e.g. in [allegro][]:
+
+[allegro]: https://github.com/dennisleexyz/allegro/blob/master/pp/csv
+
+```sh
+#!/bin/sh  
+exec awk "$(sed 1,2d "$0")" "$@"  
+# ex: ft=awk
+```
 
 ## Further reading
 
