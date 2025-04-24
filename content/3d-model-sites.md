@@ -8,16 +8,16 @@ This is a feature comparison matrix of popular 3D model hosting websites focused
 |                                                                            | Thingiverse | Printables | MyMiniFactory | Cults3D | Thangs | Creality Cloud | MakerWorld |
 | -------------------------------------------------------------------------- | ----------- | ---------- | ------------- | ------- | ------ | -------------- | ---------- |
 | Free models                                                                | ✅           | ✅          | ✅             | ✅       | ✅      | ✅              | ✅          |
-| Paid models                                                                |             | 🟨         | 🟨            | 🟨      | 🟨     | 🟥             |            |
-| [Ads](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=328s)                  | 🟥          |            | 🟥            | 🟥      |        | 🟥             |            |
-| [Meta/Smart search](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=399s)    | 🟨          | ✅          | 🟨            | ✅       | ✅      |                | 🟨         |
-| [Contests](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=476s)             |             | ✅          |               | ✅       | 🟨     | ✅              | ✅          |
-| [Companion app](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=518s)        | 🟨          | 🟨         | ✅             | 🟨      | ✅      | ✅              | ✅          |
-| [Cloud printing](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=607s)       |             | 🟨         | ✅             |         |        | ✅              | ✅          |
-| [Rewards](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=692s)              |             | ✅          |               |         | 🟨     | ✅              | ✅          |
+| Paid models                                                                |             | ⚠️         | ⚠️            | ⚠️      | ⚠️     | ❌             |            |
+| [Ads](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=328s)                  | ❌          |            | ❌            | ❌      |        | ❌             |            |
+| [Meta/Smart search](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=399s)    | ⚠️          | ✅          | ⚠️            | ✅       | ✅      |                | ⚠️         |
+| [Contests](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=476s)             |             | ✅          |               | ✅       | ⚠️     | ✅              | ✅          |
+| [Companion app](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=518s)        | ⚠️          | ⚠️         | ✅             | ⚠️      | ✅      | ✅              | ✅          |
+| [Cloud printing](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=607s)       |             | ⚠️         | ✅             |         |        | ✅              | ✅          |
+| [Rewards](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=692s)              |             | ✅          |               |         | ⚠️     | ✅              | ✅          |
 | [Communities](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=750s)          | ✅           | ✅          |               |         |        | ✅              | ✅          |
 | [Blog/guides/articles](https://www.youtube.com/watch?v=4ZeHY44B8PU&t=810s) |             | ✅          |               | ✅       | ✅      | ✅              |            |
-| Download w/o login                                                         | ✅           | ✅          | ✅             | 🟥      | 🟥     | 🟥             | 🟨         |
+| Download w/o login                                                         | ✅           | ✅          | ✅             | ❌      | ❌     | ❌             | ⚠️         |
 | SCAD Customizer                                                            | ✅           |            |               |         |        |                | ✅          |
 
 - MakerWorld requires login to download all files. When not logged in, you can only download files individually after completing a challenge.
