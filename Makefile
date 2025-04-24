@@ -1,5 +1,5 @@
 serve:
-	npx quartz build --serve
+	while true; do npx quartz build --serve; done
 build:
 	npx quartz build
 pull:
